@@ -1,0 +1,42 @@
+{
+  "forex" : {
+    "latest" : {
+      "EUR_TRY" : {
+        "cost" : 7.456,
+        "date" : "2019-08-12",
+        "next_hour" : {
+          "cost" : 7.55,
+          "status" : 0.67
+        },
+        "tomorrow" : {
+          "cost" : 7.344,
+          "status" : 0.6
+        }
+      },
+      "USD_EUR" : {
+        "cost" : 1.213,
+        "date" : "2019-08-12",
+        "next_hour" : {
+          "cost" : 7.95,
+          "status" : 0.967
+        },
+        "tomorrow" : {
+          "cost" : 7.344,
+          "status" : 0.6
+        }
+      },
+      "USD_TRY" : {
+        "cost" : 6.455,
+        "date" : "2019-08-12",
+        "next_hour" : {
+          "cost" : 6.55,
+          "status" : 0.47
+        },
+        "tomorrow" : {
+          "cost" : 7.94,
+          "status" : 0.56
+        }
+      }
+    }
+  }
+}
