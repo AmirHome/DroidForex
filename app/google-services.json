@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96739855307",
+    "firebase_url": "https://droidforex-6c516.firebaseio.com",
+    "project_id": "droidforex-6c516",
+    "storage_bucket": "droidforex-6c516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96739855307:android:cb310d599ea4f5c6",
+        "android_client_info": {
+          "package_name": "com.example.droidforex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96739855307-8e5mmdfda5rvubnsmlmf37u4nptl4hfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.droidforex",
+            "certificate_hash": "c5809e5b51e49382980e71284841b984c711a920"
+          }
+        },
+        {
+          "client_id": "96739855307-4k8t6igbbq3qah17elvl4ip2togrrqbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZHjXnJIFi893i0yjuH28sfg8XujCTetA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96739855307-4k8t6igbbq3qah17elvl4ip2togrrqbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

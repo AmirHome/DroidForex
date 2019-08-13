@@ -27,7 +27,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/imageView1"
                     android:layout_width="wrap_content"
                     android:layout_height="256px"
                     app:srcCompat="@mipmap/fl_ic_us_tr" />
@@ -38,7 +38,9 @@
                     android:layout_height="256px"
                     android:paddingTop="80px"
                     android:text="USD/TRY"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -48,7 +50,8 @@
                     android:paddingTop="80px"
                     android:text="5.4877"
 
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,7 +72,9 @@
                     android:layout_height="256px"
                     android:paddingTop="80px"
                     android:text="USD/EUR"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -79,7 +84,8 @@
                     android:paddingTop="80px"
                     android:text="5.4877"
 
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -100,7 +106,9 @@
                     android:layout_height="256px"
                     android:paddingTop="80px"
                     android:text="USD/EUR"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -110,7 +118,8 @@
                     android:paddingTop="80px"
                     android:text="5.4877"
 
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 
@@ -127,21 +136,21 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="170px"
                     android:layout_gravity="top"
                     app:srcCompat="@mipmap/fl_ic_eur_tr" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
                     android:layout_weight="1"
-                    android:paddingTop="30px"
+                    android:paddingTop="18sp"
                     android:text="USD/TRY"
-                    android:textSize="60px" />
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
 
             </LinearLayout>
 
@@ -158,16 +167,18 @@
                     android:layout_weight="1"
                     android:paddingLeft="32dp"
 
-                    android:text="Sonraki Saat" />
+                    android:text="Sonraki Saat"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
                     android:paddingRight="32dp"
-                    android:text="Yarın" />
+                    android:text="Yarın"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -177,7 +188,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -185,7 +196,7 @@
                     android:text="GÜÇLÜ SAT " />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -212,7 +223,7 @@
                         android:layout_height="150dp"
                         android:layout_gravity="center_horizontal"
                         app:pvDirection="fromLeft"
-                        app:pvProgress="1"
+                        app:pvProgress="0"
                         app:pvShape="arc" />
                 </LinearLayout>
 
@@ -228,7 +239,7 @@
                         android:layout_height="150dp"
                         android:layout_gravity="center_horizontal"
                         app:pvDirection="fromLeft"
-                        app:pvProgress="1"
+                        app:pvProgress="0"
                         app:pvShape="arc" />
                 </LinearLayout>
 
