@@ -159,11 +159,32 @@ public class MainActivity extends AppCompatActivity {
         TextView textView11 = findViewById(R.id.textView11);
         textView11.setText(forecastCurrencyValues[2]);
 
+        TextView textView12 = findViewById(R.id.textView12);
+        textView12.setText(getTeknik(forecastCurrencyValues[1]));
+
+        TextView textView13 = findViewById(R.id.textView13);
+        textView13.setText(getTeknik(forecastCurrencyValues[3]));
+
         ProgressView lProgressView = findViewById(R.id.progressView1);
         lProgressView.setProgress(Float.parseFloat(forecastCurrencyValues[1]));
 
         ProgressView rProgressView = findViewById(R.id.progressView2);
         rProgressView.setProgress(Float.parseFloat(forecastCurrencyValues[3]));
+
+    }
+
+    private String getTeknik(String forecastCurrencyValue) {
+        String result="Hiç";
+        if (Float.parseFloat(forecastCurrencyValue) < 0.2){
+            result = "GÜÇLÜ SAT";
+        }else if (Float.parseFloat(forecastCurrencyValue) > 0.2 && Float.parseFloat(forecastCurrencyValue) < 0.4){
+            result = "SAT";
+        }else if (Float.parseFloat(forecastCurrencyValue) > 0.6 && Float.parseFloat(forecastCurrencyValue) < 0.8){
+            result = "Al";
+        }else if (Float.parseFloat(forecastCurrencyValue) > 0.8){
+            result = "GÜÇLÜ Al";
+        }
+        return result;
     }
 
 }
